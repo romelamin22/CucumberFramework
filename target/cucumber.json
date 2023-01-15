@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-15T00:20:38.845Z",
+        "line": 4,
+        "name": "First Scenario",
+        "description": "",
+        "id": "to-test-the-tag;first-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1031500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we add tags",
+            "match": {
+              "location": "tags.step_def.TagsTestSteps.we_add_tags()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 958100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "added properly",
+            "match": {
+              "location": "tags.step_def.TagsTestSteps.added_properly()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "it works",
+            "match": {
+              "location": "tags.step_def.TagsTestSteps.it_works()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "To test the tag",
+    "description": "",
+    "id": "to-test-the-tag",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Tags/tags.feature",
+    "tags": []
+  }
+]
